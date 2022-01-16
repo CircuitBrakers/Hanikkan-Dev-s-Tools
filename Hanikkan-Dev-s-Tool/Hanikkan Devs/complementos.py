@@ -1,0 +1,30 @@
+def ExMsgBomb():
+    print("Con este pequeño modulo aprenderas a crear una bomba de mensajes."); print("")
+    print("---------------------------------------------------------------------------------------"); print("")
+    print('print(Fore.GREEN+"#Complements"+Fore.WHITE); print(""); print("")')
+    print('print("from colorama import init, Fore"); print(""); print("")')
+    print('print(Fore.GREEN+"# Codigo"+Fore.WHITE); print(""); print("")')
+    print('print(Fore.GREEN+"[*] Ejecutando comandos para: "+Fore.YELLOW+"MsgBomb"+Fore.GREEN); print("")')
+    print('print(Fore.CYAN+"NumberMSG")')
+    print('NumberMSG= input(Fore.YELLOW+"(Hanikkan"+Fore.MAGENTA+"/MsgBomb"+Fore.GREEN+"/MsgCounter)"+Fore.YELLOW+">>>"+Fore.GREEN)')
+    print('print(Fore.CYAN+"TextMSG")')
+    print('TextMSG = input(Fore.YELLOW+"(Hanikkan"+Fore.MAGENTA+"/MsgBomb"+Fore.GREEN+"/MsgText)"+Fore.YELLOW+">>>"+Fore.GREEN)')
+    print('tn.sleep(5)')
+    print('print(Fore.GREEN+"[*] Enviando mensajes...")')
+    print('for i in range(int(NumberMSG)):')
+    print('    pg.write(TextMSG)')
+    print("    pg.press('enter')")
+    print("    pass")
+    print('print(Fore.CYAN+"[+] Mensajes enviados correctamente.")')
+
+#def MsgBomb():
+#    print(Fore.GREEN+"[*] Ejecutando: "+Fore.YELLOW+"MsgBomb")
+#    NumberMSG = input(Fore.MAGENTA+"(MsgCounter)"+Fore.YELLOW+">>>"+Fore.GREEN)
+#    TextMSG = input(Fore.MAGENTA+"(MsgText)"+Fore.YELLOW+">>>"+Fore.GREEN)
+#    tn.sleep(5)
+#    print(Fore.GREEN+"[*] Enviando mensajes...")
+#    for i in range(int(NumberMSG)):
+#        pg.write(TextMSG)
+#        pg.press('enter')
+#        pass
+#    print(Fore.CYAN+"[+] Mensajes enviados correctamente.")
